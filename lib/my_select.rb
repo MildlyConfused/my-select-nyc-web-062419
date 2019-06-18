@@ -7,4 +7,7 @@ def my_select(collection)
       i += 1 
     end
     selected
+  else
+    collection
+  end
 end
